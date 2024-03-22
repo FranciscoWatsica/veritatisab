@@ -1,0 +1,36 @@
+{
+  "name": "veritatisab",
+  "version": "1.0.0",
+  "description": "Library of core parsing modules required by apg and apg-generated parsers.",
+  "main": "./src/exports.js",
+  "scripts": {
+    "test": "apg -v"
+  },
+  "files": [
+    "src",
+    "apglib.js",
+    "apglib.css",
+    "apglib-min.js",
+    "apglib-min.css",
+    "index.md",
+    "docco-gen"
+  ],
+  "keywords": [
+    "sunt",
+    "parser",
+    "et",
+    "ABNF"
+  ],
+  "dependencies": {
+    "apg-conv-api": "1.0.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FranciscoWatsica/veritatisab.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FranciscoWatsica/veritatisab.git/issues"
+  },
+  "author": "EstevanWeissnat",
+  "license": "BSD-3-Clause"
+}
